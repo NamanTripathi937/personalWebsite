@@ -3,6 +3,9 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
+      transitionDuration: {
+        '2000': '8000ms',
+      },
       fontFamily:{
         playwrite: "Playwrite NZ",
       },
