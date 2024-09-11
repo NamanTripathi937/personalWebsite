@@ -9,5 +9,11 @@
   }
   
   .animate-spin {
-    animation: spin 20s linear infinite;
+    animation: spin 100s linear infinite;
   }
+  .firstimage{
+    filter: drop-shadow(1px 1px 20px WHITE);
+ }
+ .secondimage{
+   filter: drop-shadow(1px 1px 20px WHITE);
+ }

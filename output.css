@@ -758,6 +758,11 @@ video {
   margin-right: 5rem;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -768,14 +773,14 @@ video {
   margin-right: 1.5rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
 }
 
 .mb-2 {
@@ -941,6 +946,14 @@ video {
   width: 13rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
 .w-\[60\%\] {
   width: 60%;
 }
@@ -951,14 +964,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .flex-shrink {
@@ -2221,6 +2226,10 @@ video {
   padding-bottom: 1rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2284,6 +2293,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-6xl {
@@ -2787,7 +2801,15 @@ video {
 }
 
 .animate-spin {
-  animation: spin 20s linear infinite;
+  animation: spin 40s linear infinite;
+}
+
+.firstimage{
+  filter: drop-shadow(1px 1px 20px WHITE);
+}
+
+.secondimage{
+  filter: drop-shadow(1px 1px 20px WHITE);
 }
 
 .hover\:-translate-y-1:hover {
@@ -2884,6 +2906,10 @@ video {
 
   .md\:w-\[49\%\] {
     width: 49%;
+  }
+
+  .md\:w-\[90\%\] {
+    width: 90%;
   }
 
   .md\:flex-row {
